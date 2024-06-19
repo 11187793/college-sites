@@ -1,0 +1,36 @@
+body { 
+    background-image: url('./the-psychology-of-wearables.png');
+    background-size: cover;
+}
+
+main { 
+    width: 50%;
+    margin: 0 auto;
+}
+
+main div { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 200px;
+}
+
+main div a {
+    color: rgb(194, 194, 194);
+    text-decoration: none;
+    font-family:monospace;
+    font-size: 20px;
+}
+
+main div a:hover { 
+    color: lightslategrey; 
+    transition: color 0.5s;
+}
+
+.first-item {
+    margin-top: 100px;
+}
